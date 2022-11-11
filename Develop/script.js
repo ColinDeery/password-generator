@@ -17,6 +17,33 @@ function generatePassword() {
   var includeUpper = window.confirm("Would you like your password to include uppercase characters?")
   var includeNumeric = window.confirm("Would you like your password to include numbers?")
   var includeSpecial = window.confirm("Would you like your password to include special characters?")
+  
+  var charSetLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+  var charSetUpper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+
+  var charSetNumeric = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
+  var charSetSpecial = [" ", "!", "''", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~" ]
+
+  var charSet = []
+
+  if (includeLower === true) {
+    charSet.push(charSetLower)
+  }
+
+  if (includeUpper === true) {
+    charSet.push(charSetUpper)
+  }
+
+  if (includeNumeric === true) {
+    charSet.push(charSetNumeric)
+  }
+
+  if (includeSpecial === true) {
+    charSet.push(charSetSpecial)
+  }
+
 }
 
 
