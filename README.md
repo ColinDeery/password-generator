@@ -8,5 +8,4 @@ This password generator was designed to create a random password from a given se
 
 After navigating to the webpage in your browser, simply click the "Generate Password" button and the user will be met with several windows to input desired password length and character criteria.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
+<img src= "Assets/Password Generator.png">
