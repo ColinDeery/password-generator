@@ -12,6 +12,11 @@ function generatePassword() {
     window.alert("Select a password length between 8 and 128 characters.");
     return;
   }
+
+  var includeLower = window.confirm("Would you like your password to include lowercase characters?")
+  var includeUpper = window.confirm("Would you like your password to include uppercase characters?")
+  var includeNumeric = window.confirm("Would you like your password to include numbers?")
+  var includeSpecial = window.confirm("Would you like your password to include special characters?")
 }
 
 
