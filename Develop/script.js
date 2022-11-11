@@ -60,9 +60,9 @@ function generatePassword() {
 
   charSet.sort(() => Math.random() - 0.5);
 
-  var passwordSet = charSet.slice(0,charLength);
+  var passwordSet = charSet.slice(0, charLength);
 
-  var lastPass = (passwordSet.join());
+  var lastPass = (passwordSet.join(''));
 
   return(lastPass);
 
